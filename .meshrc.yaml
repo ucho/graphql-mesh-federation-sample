@@ -1,0 +1,9 @@
+sources:
+  - name: Accounts
+    handler:
+      graphql:
+        endpoint: http://localhost:64566/graphql
+  - name: Tasks
+    handler:
+      graphql:
+        endpoint: http://localhost:55862/graphql
